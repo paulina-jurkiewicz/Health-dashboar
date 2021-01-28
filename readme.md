@@ -12,3 +12,6 @@ npm install
 
 ## Run
 npm run serve
+
+## open
+localhost:900/dashboard 

@@ -2,14 +2,14 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const routes: Array<any> = [
     {
-        path: '/dashboard',
+        path: '/',
         name: 'Dashboard',
         component: () =>
             import(/* webpackChunkName: 'dashboard' */ '../views/Dashboard.vue')
     },
     {
         path: '/:pathMatch(.*)*',
-        redirect: () => '/dashboard'
+        redirect: () => '/'
     }
 ];
 
