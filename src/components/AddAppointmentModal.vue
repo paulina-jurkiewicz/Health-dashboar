@@ -151,8 +151,6 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-@import '~vue3-datepicker';
-
 .modal-add-appointment {
     @include box-shadow(0 0 rem(50) rem(-30) rgba(0, 0, 0, 0.75));
 
